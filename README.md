@@ -20,7 +20,7 @@ A conversational AI chatbot that can answer questions from documents and schedul
 2.  Install the required packages:
 
    ```bash
-   pip install -r requirements.txt
+    pip install -r requirements.txt
    ```
 
 3. Set up your API keys:
@@ -33,5 +33,19 @@ A conversational AI chatbot that can answer questions from documents and schedul
    ```bash
    streamlit run app.py 
    ```
+
+## Project Structure
+
+- `app.py`: Main Streamlit application
+- `chatbot/`: Core chatbot functionality
+  - `document_loader.py`: Document loading and processing
+  - `rag_system.py`: Retrieval-Augmented Generation system
+  - `user_info.py`: User information collection logic
+  - `agent.py`: Agent system that coordinates tools
+- `tools/`: Individual tools for specific functionalities
+  - `date_tool.py`: Date extraction from natural language
+  - `booking_tool.py`: Appointment booking functionality
+- `tests/`: Unit tests for the project components
+
 
 
