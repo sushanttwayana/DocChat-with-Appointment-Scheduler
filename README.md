@@ -19,6 +19,19 @@ A conversational AI chatbot that can answer questions from documents and schedul
 
 2.  Install the required packages:
 
-    * pip install -r requirements.txt *
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-4.  
+3. Set up your API keys:
+    ```bash
+   OPENAI_API_KEY=your_openai_api_key
+   # OR for Gemini
+   GOOGLE_API_KEY=your_google_api_key
+   ```
+4. Start the application:
+   ```bash
+   streamlit run app.py 
+   ```
+
+
