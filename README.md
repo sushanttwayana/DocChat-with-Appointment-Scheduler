@@ -48,4 +48,7 @@ A conversational AI chatbot that can answer questions from documents and schedul
 - `tests/`: Unit tests for the project components
 
 
+## Please find the demo of this project here
+
+https://drive.google.com/file/d/1YwO6jjkbLoYKlxcGisfgi-EUNhfW0V3H/view?usp=drive_link
 
