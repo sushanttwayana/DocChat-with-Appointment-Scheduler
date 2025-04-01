@@ -1,0 +1,23 @@
+# Ignore .env file
+.env
+
+# Ignore virtual environment directory
+project_bot/
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore IDE specific files (if using VSCode or PyCharm)
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore database file (if you're using SQLite or any local database)
+*.db
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
